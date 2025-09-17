@@ -1,0 +1,1 @@
+module.exports = { content: ["./pages/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"], theme: { extend: { colors: { amberCustom: '#fbbf24' }, boxShadow: { 'gold-glow': '0 6px 30px rgba(212,163,115,0.22)' } }, }, plugins: [], }

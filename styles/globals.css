@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+@keyframes goldGradient { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+.animated-gradient { background: linear-gradient(-45deg, #050507 10%, #1a1a1d 35%, #b45309 60%, #d4a373 90%); background-size: 400% 400%; animation: goldGradient 25s ease infinite; }
+.card-glow { box-shadow: 0 8px 30px rgba(212,163,115,0.12); border: 1px solid rgba(212,163,115,0.06); }
+.btn-gold { transition: box-shadow 200ms ease, transform 150ms ease; } .btn-gold:hover { box-shadow: 0 8px 30px rgba(212,163,115,0.28); transform: translateY(-2px); }
